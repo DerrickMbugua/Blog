@@ -22,6 +22,15 @@
   <link href="{{ asset('website/css/clean-blog.min.css')}}" rel="stylesheet">
 
   <style>
+    .page-link{
+      color: #00657b;
+      text-align:center;
+    }
+    
+    .page-item.active .page-link{
+      background-color: #00657b;
+      border-color: #00657b;
+    }
 .category-list{
     padding: 0;
     margin: 0;
